@@ -58,12 +58,16 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        
+       System.out.println("please enter name"); 
         String studentName = scanner.nextLine();
+     System.out.println("please enter roll number");
         String rollNumber = scanner.nextLine();
+     System.out.println("please enter marks");
         double marks = scanner.nextDouble();
+     System.out.println("please enter course name");
         scanner.nextLine(); 
         String courseName = scanner.nextLine();
+     System.out.println("please enter course credits");
         int courseCredits = scanner.nextInt();
 
         
